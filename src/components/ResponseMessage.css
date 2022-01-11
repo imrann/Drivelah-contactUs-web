@@ -1,0 +1,10 @@
+.success {
+    color:green;
+    text-align: center;
+}
+
+.failed {
+    color:red;
+    text-align: center;
+
+}
