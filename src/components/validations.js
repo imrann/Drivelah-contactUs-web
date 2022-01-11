@@ -2,9 +2,9 @@ export const nameValidation = function (value) {
   if (value === "undefined") {
     return "";
   }
-  //  else if (value.trim() === '' ) {
-  //   return "Please enter some text";
-  // }
+   else if (value.trim() === '' ) {
+    return "Please enter some text";
+  }
   else if (value.length > 20) {
     return "Maximum allowed character is 20";
   } else {
